@@ -1,7 +1,7 @@
 // @flow
 
-export function add(a: number, b: number): number {
-  return a + b
+export function add(a: number, b: number, c: number): number {
+  return a + b + c
 }
 
 export function addAsync(a: number, b: number): Promise<number> {
@@ -12,3 +12,5 @@ export function addAsync(a: number, b: number): Promise<number> {
   })
 }
 //test change 2
+//YYYYYYYYY
+//CCCCCC
